@@ -30,7 +30,6 @@ if (in_array($extension, ['jpg', 'jpeg', 'png'])) {
     // Valid image file (JPEG or PNG)
 
     if (move_uploaded_file($_FILES['nazwa']['tmp_name'], $uploadfile)) {
-    // Return the image URL (you can customize this based on your server setup)
     echo "/pictures/" . basename($_FILES['nazwa']['name']);
 } else {
     echo "Upload failed.";
