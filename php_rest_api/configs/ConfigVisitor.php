@@ -1,9 +1,9 @@
 <?php
 class VisitorDatabase{
-private $host = 'localhost';
-private $db_name ='muzeum';
-private $username ='visitor';
-private $password = 'UserPassword';
+private $host = ''; // place for database host adress
+private $db_name =''; // place for database name
+private $username =''; // login of visitor account
+private $password = ''; // password of visitor account
 private $conn;
 
 
