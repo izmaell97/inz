@@ -1,9 +1,9 @@
 <?php
 class AdminDatabase{
-private $host = 'localhost';
-private $db_name ='muzeum';
-private $username ='admin';
-private $password = 'w0rd13AD';
+private $host = ''; // here put name of host
+private $db_name =''; // here put database name
+private $username =''; // here put admin username from database
+private $password = ''; //here put password
 private $conn;
 
 
