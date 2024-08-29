@@ -1,9 +1,9 @@
 <?php
 class WorkerDatabase{
-private $host = 'localhost';
-private $db_name ='muzeum';
-private $username ='worker';
-private $password = 'workerpassword';
+private $host = ''; //place for database host adress
+private $db_name =''; // place for database name
+private $username =''; // place for workers account login
+private $password = ''; // place for workers account password
 private $conn;
 
 
