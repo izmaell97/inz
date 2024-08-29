@@ -1,9 +1,9 @@
 <?php
 class Database{
-private $host = 'localhost';
-private $db_name ='muzeum';
-private $username ='worker';
-private $password = 'workerpassword';
+private $host = ''; // here put name of host
+private $db_name =''; // here put name of database
+private $username =''; // here put login from database 
+private $password = ''; // here put password from database
 private $conn;
 
 
